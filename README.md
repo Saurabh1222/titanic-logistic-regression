@@ -1,12 +1,13 @@
 # Titanic Survival Prediction - Logistic Regression
 
-This project uses the Titanic dataset to predict passenger survival using Logistic Regression.
+This project uses the Titanic dataset to predict whether a passenger survived or not, using logistic regression.
 
 ## 📊 What It Does
 - Loads Titanic dataset from Seaborn
-- Encodes categorical features (like sex,age)
+- Cleans missing data
+- Converts categorical data to numerical (e.g. sex)
 - Trains a logistic regression model
-- Evaluates accuracy, precision, recall, F1 score
+- Evaluates the model using Accuracy, Precision, Recall, F1 Score
 
 ## 🧰 Tools Used
 - Python
@@ -15,5 +16,9 @@ This project uses the Titanic dataset to predict passenger survival using Logist
 - Seaborn
 
 ## 🚀 How to Run
-Open the `.ipynb` file in Google Colab and run all cells.
+Download the notebook and run it in Google Colab or Jupyter Notebook. All code is in `titanic_logistic_regression.ipynb`.
+
+## 📎 Sample Output
+Accuracy: 0.75
+Confusion Matrix: [[23 6], [ 5 14]]
 
